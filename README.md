@@ -6,7 +6,7 @@ This is a challenge where I try to do a project every day. The reason behind thi
 
 ### Rules
 
-* The projects can be everything! It can be something very small like an easy header, but it can also be a whole project, like a multiple pages website.
+* The projects can be everything! It doesn't matter how big or small the project is, on the one day it's maybe just a collection of buttons or some other components. On the other day it's maybe a whole website or an interactive application.
 * The projects don't have to be perfect. Doing a project every day is hard enough, so the project don't have to be pixel-perfect, responsive or completely bug free.
 * Takin a break for one or more days is only allowed when I'm feeling sick or something important happens in real-life.
 
