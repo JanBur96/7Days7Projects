@@ -6,6 +6,4 @@ This is a challenge where I try to do a project every day. The reason behind thi
 
 | #  |  Name | Description  |  Link |
 |----|-------|--------------|-------|
-| 1   |   Name    |     Description         |   Click    |
-|    |       |              |       |
-|    |       |              |       |
+|1|Name|Description|Link|
