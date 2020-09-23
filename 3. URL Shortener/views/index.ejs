@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <title>URL Shortener</title>
+</head>
+<body class="bg-dark text-white">
+  <div class="container">
+    <header class="border-bottom">
+      <h1 class="text-center">Shrinkerino</h1>
+    </header>
+    <main>
+      <form action="/shortUrls" method="POST" class="my-4 form-inline">
+        <label for="fullUrl" class="sr-only">Url</label>
+        <input required placeholder="Put the URL you want to shrink here" type="url" name="fullUrl" id="fullUrl" class="form-control mr-2 col">
+        <button type="submit" class="btn btn-success">Shrink</button>
+      </form>
+    
+      <h2 class="text-center">Your Shrink List</h2>
+      <table class="table table-striped text-white bg-secondary">
+        <thead>
+          <tr>
+            <th>Full URL</th>
+            <th>Short URL</th>
+            <th>Clicks</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% shortUrls.forEach(shortUrl => { %>
+            <tr>
+              <td><u><a class="text-white" href="<%= shortUrl.full %>"><%= shortUrl.full %></a></td>
+              <td><u><a class="text-white" href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
+              <td><%= shortUrl.clicks %></td>
+              <td><a class="btn btn-danger" href="/delete/<%= shortUrl._id %>">X</a></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+    </main>
+</body>
+</html>
