@@ -15,6 +15,7 @@ This is a challenge where I try to do a project every day. The reason behind thi
 
 ## Projects
 
-| #  |  Name | Description  |  Link |
-|----|-------|--------------|-------|
-|1|Name|Description|Link|
+| #  |  Name | Description  | 
+|----|-------|--------------|
+|1|Discord Music Bot|A bot for Discord which plays music from Youtube
+|2|Pokédex|A small Pokédex I made with the PokéAPI
