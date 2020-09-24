@@ -1,0 +1,10 @@
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #45b6fe;
+  border-bottom: 5px solid #3d99d3;
+  letter-spacing: 1px;
+}

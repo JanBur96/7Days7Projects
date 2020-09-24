@@ -1,0 +1,17 @@
+.add-budget__add-income {
+  display: grid;
+  grid-template-rows: 1fr 1fr 0.75fr;
+  border-right: 1px solid black;
+}
+
+.add-budget__add-income__input {
+  padding-left: 0.75rem;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.add-budget__add-income__button {
+  border: none;
+  font-size: 2rem;
+}

@@ -1,0 +1,31 @@
+.total-budget {
+  height: 10%;
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  border-bottom: 1px solid black;
+}
+
+.total-budget__budget {
+  justify-self: center;
+  align-self: center;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.total-budget__totals {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.total-budget__income {
+  color: green;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.total-budget__expense {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 500;
+}

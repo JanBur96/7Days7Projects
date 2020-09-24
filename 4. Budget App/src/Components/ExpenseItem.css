@@ -1,0 +1,24 @@
+.budget__expense-item {
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+}
+
+.budget__expense-infos {
+  display: flex;
+}
+
+.budget__expense-amount {
+  margin-right: 0.5rem;
+}
+
+.budget__expense-button {
+  color: red;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+}
