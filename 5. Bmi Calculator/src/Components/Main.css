@@ -1,0 +1,81 @@
+.main {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 35%;
+  height: 55%;
+  display: grid;
+  grid-template-rows: 1fr 6fr 1.5fr;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card__heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__form {
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: 2fr 2fr 1fr;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.card__icon {
+  font-size: 3rem;
+  color: #009dff;
+}
+
+.card__label {
+  display: grid;
+  grid-template-rows: 1fr 1fr 0.5fr;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.card__input {
+  width: 90%;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  justify-self: center;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+.card__button {
+  width: 35%;
+  height: 50%;
+  justify-self: center;
+  align-self: center;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: #009dff;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.card__bmi {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card__result {
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #009dff;
+}
