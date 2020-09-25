@@ -12,6 +12,13 @@ This is a challenge where I try to do a project every day. The reason behind thi
 
 ### Tech used
 
+* HTML
+* CSS
+* JavaScript
+* React
+* Node
+* Express
+* MongoDB
 
 ## Projects
 
