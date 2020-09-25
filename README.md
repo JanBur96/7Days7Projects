@@ -20,3 +20,5 @@ This is a challenge where I try to do a project every day. The reason behind thi
 |1|Discord Music Bot|A bot for Discord which plays music from Youtube
 |2|Pokédex|A small Pokédex I made with the PokéAPI
 |3|Shorterino|Shorterino is an URL shortener
+|4|Budget App|An app where you can keep track of your budget
+|5|BMI Calculator|A simple BMI calculator
