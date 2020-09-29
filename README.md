@@ -1,6 +1,6 @@
-# DailyProject
+# 7Days7Projects
 
-This is a challenge where I try to do a project every day. The reason behind this is, that I want to improve my skills and I really want to bring out the best in me.
+This is a challenge where I did a project every day for 7 days.
 
 ## Additional Information
 
@@ -29,3 +29,5 @@ This is a challenge where I try to do a project every day. The reason behind thi
 |3|Shorterino|Shorterino is an URL shortener
 |4|Budget App|An app where you can keep track of your budget
 |5|BMI Calculator|A simple BMI calculator
+|6|Contact Card|An easy contact card component
+|7|Grid Portfolio|A very minimalist portfolio
