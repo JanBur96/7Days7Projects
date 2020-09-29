@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+/*************** RESET & BASE ***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100%;
+  font-size: 1.6rem;
+  background-color: #e4e4e4;
+  line-height: 1.5em;
+}
+
+h2 {
+  letter-spacing: 1px;
+}
+
+h3 {
+  letter-spacing: 1px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 0.75fr 2fr 0.5fr;
+  row-gap: 3rem;
+}
+
+/*************** ABOUT ***************/
+.about {
+  height: 20rem;
+  margin-top: 4rem;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.about__image {
+  width: 25rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about__item {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 4fr;
+}
+
+.about__item i {
+  text-align: center;
+}
+
+.about__text {
+  width: 100%;
+  padding: 1rem;
+}
+
+.about__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__paragraph {
+  margin-top: 1rem;
+}
+
+/*************** EXPERIENCE ***************/
+.experience {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+}
+
+/***** EXPERIENCE STACK *****/
+.experience__stack {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.experience__stack__list {
+  margin-top: 1rem;
+}
+
+.experience__stack__item {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  align-items: flex-start;
+}
+
+.experience__stack__item:first-child {
+  margin-top: 1.5rem;
+}
+
+.experience__stack__icon {
+  font-size: 3.5rem;
+}
+
+/***** EXPERIENCE PROJECTS *****/
+.experience__projects {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.experience__projects__list {
+  margin-top: 1rem;
+}
+
+.experience__projects__project-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience__projects__links {
+  display: flex;
+}
+
+.experience__projects__link {
+  margin-left: 2rem;
+}
+
+.experience__projects__item {
+  margin-top: 2rem;
+}
+
+.experience__projects__item:first-of-type {
+  margin-top: 1rem;
+}
+
+/*************** HOBBIES ***************/
+.hobbies {
+  padding-top: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.hobbies__list {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.hobbies__icon {
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+.hobbies__paragraph {
+  margin-top: 0.75rem;
+  font-size: 2.25rem;
+}
